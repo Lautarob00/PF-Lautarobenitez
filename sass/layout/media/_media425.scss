@@ -1,0 +1,315 @@
+/*--- MEDIA QUERIES 425 INDEX ---*/
+@media (max-width:425px) {
+    .container-fluid {
+        flex-direction: column;
+        .navbar-brand {
+            img {
+                height: 50px;
+                position: relative;
+                left: 8px;
+            }
+        }
+        #navbarNavDropdown {
+            .navbar-nav {
+                .nav-item {
+                    padding: 5px;
+                    .nav-link {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .seccionPrincipal {
+        margin: 20px;
+        padding: 10px 10px;
+        h2 {
+            font-size: 18px;
+            padding: 10px;
+        }
+        p {
+            font-size: 16px;
+            padding-top: 15px;
+        }
+    }
+    .coaching {
+        .coachingTitulo {
+            height: 250px;
+            h2 {
+                font-size: 15px;
+            }
+        }
+        .coachingDescripcion {
+            font-size: 16px;
+        }
+    }
+    .contenedorImagenes {
+        margin: 15px;
+        padding: 15px;
+        flex-direction: column;
+        align-items: center;
+        .imagenes {
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+            .cardInfo {
+                padding: 10px;
+                h3 {
+                    font-size: 16px;
+                }
+                button {
+                    padding: 4px;
+                    a {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+    .descripcion-2 {
+        margin: 25px;
+        h3 {
+            display: none;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    .seccionBeneficios {
+        display: none;
+    }
+    footer {
+        flex-direction: column;
+        p {
+            font-size: 16px;
+        }
+        #iconos {
+            justify-content: center;
+            li {
+                padding: 10px;
+            }
+        }
+    }
+}
+
+/*--- MEDIA QUERIES 425 NOSOTROS ---*/
+@media (max-width:425px) {
+    .seccion-1 {
+        margin: 10px;
+        .cardContenido {
+            .imagenMision {
+                img {
+                    width: 300px;
+                    height: 250px;
+                    margin: 10px;
+                }
+            }
+            .infoMision {
+                margin: 10px;
+                padding: 5px;
+                h2 {
+                    font-size: 18px;
+                    padding: 0;
+                }
+                p {
+                    font-size: 16px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .seccion-2 {
+        margin: 10px;
+        .cardContenido {
+            .imagenVision {
+                img {
+                    width: 300px;
+                    height: 250px;
+                    margin: 10px;
+                }
+            }
+            .infoVision {
+                margin: 10px;
+                padding: 5px;
+                h2 {
+                    font-size: 18px;
+                    padding: 0;
+                }
+                p {
+                    font-size: 16px;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    .seccion-3 {
+        .divisorImagen {
+            display: none;
+        }
+        .divisorMision {
+            margin: 10px;
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+    .seccion-4 {
+        .divisorImagen {
+            display: none;
+        }
+        .divisorVision {
+            margin: 10px;
+            h3 {
+                font-size: 18px;
+            }
+            p {
+                font-size: 16px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*--- MEDIA QUERIES 425 NUTRICION ---*/
+@media (max-width:425px) {
+    .seccionNutrientes {
+        margin: 5px;
+        padding: 5px 5px;
+        h2 {
+            font-size: 20px;
+        }
+        #divisorNutrientes {
+            height: 375px;
+            flex-direction: column;
+            justify-content: center;
+            div {
+                margin: 5px;
+                padding: 5px;
+                h3 {
+                    font-size: 18px;
+                }
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .seccionAprender {
+        display: none;
+    }
+    #accordionExample {
+        padding: 5px 5px;
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    font-size: 16px;
+                }
+            }
+            #collapseOne {
+                .accordion-body {
+                    strong {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*--- MEDIA QUERIES 425 EJERCICIO ---*/
+@media (max-width:425px) {
+    .principalEjercicio {
+        .articuloPrimero {
+            grid-template-columns: none;
+            .infoArticulo {
+                margin: 10px;
+                h2 {
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 14px;
+                    padding: 0;
+                }
+            }
+            .imagenArticulo {
+                display: none;
+            }
+        }
+        .articuloSegundo {
+            display: none;
+        }
+    }
+    .secundarioEjercicio {
+        margin: 10px;
+        padding: 5px;
+        h2 {
+            font-size: 16px;
+            padding: 5px;
+        }
+        p {
+            font-size: 14px;
+            padding: 0;
+        }
+    }
+    .contenedorEjercicio {
+        grid-template-columns: 1fr;
+        .imagenEjercicio {
+            width: 200px;
+            height: 250px;
+            .infoEjercicio {
+                padding: 30px;
+                h3 {
+                    display: none;
+                }
+                button {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+/*--- MEDIA QUERIES 425 CONTACTO ---*/
+@media (max-width:425px) {
+    form {
+        width: 350px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        .tituloFormulario {
+            font-size: 16px;
+        }
+        input {
+            margin-bottom: 10px;
+        }
+        #boton {
+            padding: 5px;
+        }
+    }
+    .ventas {
+        margin: 15px;
+        padding: 30px;
+        .ventasInfo {
+            width: 250px;
+            border: none;
+            h2 {
+                font-size: 18px;
+                padding: 10px;
+            }
+            p {
+                font-size: 16px;
+                padding: 5px;
+            }
+        }
+        .mapa {
+            margin-top: 15px;
+            iframe {
+                width: 300px;
+                height: 200px;
+            }
+        }
+    }
+}

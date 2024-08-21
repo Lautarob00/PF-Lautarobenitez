@@ -1,0 +1,79 @@
+/*--- MAIN NUTRICION ---*/
+.carousel-item {
+    h5 {
+        font-size: 22px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    p {
+        font-family: $letraparrafo;
+        font-size: 20px;
+    }
+}
+.seccionNutrientes {
+    margin: 15px;
+    padding: 30px 30px;
+    text-align: center;
+    h2 {
+        font-family: $letraTitulos;
+        font-size: 25px;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        text-decoration: underline;
+    }
+    #divisorNutrientes {
+        display: flex;
+        height: 250px;
+        padding: 10px;
+        align-items: center;
+        div {
+            background-color: $colorSecundario;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 4px;
+            h3 {
+                font-family: $letraTitulos;
+                font-size: 22px;
+                font-weight: bold;
+                color: #3F352C;
+            }
+            p {
+                font-family: $letraparrafo;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.seccionAprender {
+    background-color: $colorTerciario;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 5px;
+    h2 {
+        font-family: $letraTitulos;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 10px;
+        text-decoration: underline;
+        text-transform: uppercase;
+    }
+    article {
+        font-family: $letraparrafo;
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+#accordionExample {
+    margin: 15px;
+    padding: 20px 20px;
+    .accordion-item {
+        padding: 10px;
+        .accordion-button {
+            font-size: 18px;
+        }
+    }
+}

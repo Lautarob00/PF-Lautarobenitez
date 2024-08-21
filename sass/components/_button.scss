@@ -1,0 +1,25 @@
+button {
+    background-color: #75706F;
+    font-family: $letraparrafo;
+    margin: 5px;
+    padding: 5px;
+    border: #3F352C;
+    border-radius: 5px;
+    &:hover {
+        color: $colorTerciario;
+        cursor: pointer;
+    }
+}
+
+button {
+    background: #282623;
+    color: #F1F1F1;
+    font-family: $letraparrafo;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    &:hover {
+        color: $colorTerciario;
+        cursor: pointer;
+    }
+}

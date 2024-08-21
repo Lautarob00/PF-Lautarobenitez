@@ -1,0 +1,31 @@
+/*--- primero, llamo a los utilities ---*/
+
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+/*--- en segundo lugar, se llama a la base ---*/
+
+@import "./base/reset";
+
+/*--- se llama al layout ---*/
+
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";
+@import "./layout/main-nosotros";
+@import "./layout/main-nutricion";
+@import "./layout/main-ejercicio";
+@import "./layout/main-contacto";
+
+/*--- se llaman a los componentes ---*/
+
+@import "./components/button";
+@import "./components/navbar";
+
+/*--- por ultimo se llama a las media queries ---*/
+
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media425";
+@import "./layout/media/media375";

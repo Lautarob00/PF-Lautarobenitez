@@ -1,0 +1,194 @@
+/*--- MAIN NOSOTROS ---*/
+.seccion-1 {
+    margin: 30px;
+    .cardContenido {
+        background: $colorTerciario;
+        @include flex;
+        .imagenMision {
+            align-self: center;
+            -webkit-animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        @-webkit-keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-1000px);
+                transform: translateX(-1000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+            img {
+                width: 450px;
+                height: 400px;
+                margin: 20px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+        .infoMision {
+            margin: 40px;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            align-self: center;
+            h2 {
+                color: $colorPrimario;
+                padding: 10px;
+                font-family: $letraTitulos;
+                font-size: 25px;
+                text-decoration: underline;
+                text-transform: uppercase; 
+            }
+            p {
+                font-family: $letraparrafo;
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.seccion-2 {
+    margin: 30px;
+    padding-bottom: 30px;
+    .cardContenido {
+        background: $colorTerciario;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        .imagenVision {
+            align-self: center;
+            -webkit-animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+
+        @-webkit-keyframes slide-in-right {
+            0% {
+                -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes slide-in-right {
+            0% {
+                -webkit-transform: translateX(1000px);
+                transform: translateX(1000px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+            img {
+                width: 450px;
+                height: 400px;
+                margin: 20px;
+                object-fit: cover;
+                border-radius: 5px;
+            }
+        }
+        .infoVision {
+            margin: 40px;
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            align-self: center;
+            h2 {
+                color: $colorPrimario;
+                padding: 10px;
+                font-family: $letraTitulos;
+                font-size: 25px;
+                text-decoration: underline;
+                text-transform: uppercase;
+            }
+            p {
+                font-family: $letraparrafo;
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+    }
+}
+
+.seccion-3 {
+    @include flex-align;
+    .divisorImagen img {
+        height: 75px;
+        margin: 20px;
+        padding: 5px;
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+    .divisorMision {
+        margin: 25px;
+        align-self: center;
+        h3 {
+            color: $colorTerciario;
+            padding: 10px;
+            font-family: $letraTitulos;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        p {
+            font-family: $letraparrafo;
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+}
+
+.seccion-4 {
+    @include flex-align;
+    .divisorImagen img {
+        height: 75px;
+        margin: 20px;
+        padding: 5px;
+        &:hover {
+            transform: scale(1.2);
+            cursor: pointer;
+        }
+    }
+    .divisorVision {
+        margin: 20px;
+        align-self: center;
+        h3 {
+            color: $colorTerciario;
+            padding: 10px;
+            font-family: $letraTitulos;
+            font-size: 24px;
+            font-weight: bolder;
+            text-align: center;
+        }
+        p {
+            font-family: $letraparrafo;
+            font-size: 20px;
+            padding: 5px;
+        }
+    }
+}

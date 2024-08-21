@@ -1,0 +1,25 @@
+/*--- FOOTER INICIO ---*/
+
+footer {
+    font-family: $letraparrafo;
+    background-color: $colorPrimario;
+    padding: 5px;
+    @include flex-evenly;
+    p {
+        font-size: 18px;
+        align-self: center;
+    }
+    ul li a img {
+        height: 40px;
+        &:hover {
+            transform: scale(1.2);
+        }
+    }
+    #iconos {
+        list-style-type: none;
+        display: flex;
+    }
+    #iconos li {
+        padding: 15px;
+    }
+}

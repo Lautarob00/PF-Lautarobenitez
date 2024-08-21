@@ -1,0 +1,54 @@
+.navbar-brand {
+    padding: 5px;
+    img {
+        height: 70px;
+        animation-name: logo;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+        animation-duration: 8s;
+        animation-delay: 2s;
+    }
+    @keyframes logo {
+
+        0% {
+            border: 1px solid #AB9D92;
+            height: 30px;
+        }
+        25% {
+            background-color: #9DB2BF;
+            border: 1px solid #AB9D92;
+            border-radius: 50%;
+        }
+        50% {
+            background-color: #9DB2BF;
+            border: 1px solid #AB9D98;
+            border-radius: 50%;
+        }
+        75% {
+            background-color: #9DB2BF;
+            border: 1px solid #AB9D98;
+            border-radius: 50%;
+        }
+        100% {
+            display: none;
+        }
+    }
+}
+.nav-item {
+    padding: 10px;
+}
+.nav-item.dropdown {
+    border: 1px solid $colorTerciario;
+}
+.nav-item.nav-item.dropdown {
+    &:hover {
+        color: $colorTerciario;
+    }
+}
+.nav-item a {
+    color: #F4F4F4;
+    font-size: 20px;
+    &:hover {
+        color: map-get($colores, color2);
+    }
+}

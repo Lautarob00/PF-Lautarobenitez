@@ -1,0 +1,150 @@
+/*--- MEDIA QUERIES 375 INDEX ---*/
+@media (max-width:375px) {
+    .container-fluid {
+        .navbar-brand {
+            img {
+                display: none;
+            }
+        }
+    }
+    .seccionPrincipal {
+        margin: 10px;
+        h2 {
+            font-size: 17px;
+        }
+        p {
+            font-size: 15px;
+            padding-top: 10px;
+        }
+    }
+    .coaching {
+        .coachingTitulo {
+            height: 225px;
+            h2 {
+                font-size: 14px;
+                text-transform: none;
+            }
+        }
+        .coachingDescripcion {
+            font-size: 15px;
+        }
+    }
+    .contenedorImagenes {
+        margin: 10px;
+        padding: 10px;
+        .imagenes {
+            height: 225px;
+            .cardInfo {
+                padding: 20px;
+                h3 {
+                    display: none;
+                }
+            }
+        }
+    }
+    .descripcion-2 {
+        margin: 20px;
+        p {
+            font-size: 15px;
+            padding: 0;
+        }
+    }
+    footer p {
+        font-size: 15px;
+    }
+}
+
+/*--- MEDIA QUERIES 375 NUTRICION ---*/
+@media (max-width:375px) {
+    .seccionNutrientes {
+        h2 {
+            font-size: 18px;
+        }
+        #divisorNutrientes {
+            height: 325px;
+                div {
+                    h3 {
+                        font-size: 16px;
+                    }
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+    }
+    #accordionExample {
+        .accordion-item {
+            .accordion-header {
+                .accordion-button {
+                    font-size: 14px;
+                }
+            }
+            #collapseOne {
+                .accordion-body {
+                    strong {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*--- MEDIA QUERIES 375 EJERCICIO ---*/
+@media (max-width:375px) {
+    .principalEjercicio {
+        .articuloPrimero {
+            .infoArticulo {
+                margin: 5px;
+                h2 {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .secundarioEjercicio {
+        h2 {
+            font-size: 15px;
+        }
+    }
+    .contenedorEjercicio {
+        padding-top: 20px;
+        .imagenEjercicio {
+            margin: 5px;
+            height: 225px;
+        }
+    }
+}
+
+/*--- MEDIA QUERIES 375 CONTACTO ---*/
+@media (max-width:375px) {
+    form {
+        background-color: transparent;
+        width: 300px;
+        padding: 10px 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        .tituloFormulario {
+            font-size: 15px;
+        }
+    }
+    .ventas { 
+        margin: 10px;
+        padding: 20px;
+        .ventasInfo {
+            h2 {
+                font-size: 16px;
+                padding: 5px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+        .mapa {
+            iframe {
+                width: 275px;
+                height: 175px;
+            }
+        }
+    }
+}
