@@ -726,7 +726,8 @@ button {
     border: 1px solid #AB9D98;
     border-radius: 50%; }
   100% {
-    display: none; } }
+    display: none;
+    /*--- consultar al tutor porque no se aplica ---*/ } }
 
 .nav-item {
   padding: 10px; }
