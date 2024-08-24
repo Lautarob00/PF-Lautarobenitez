@@ -1159,10 +1159,12 @@ button {
 @media (max-width: 425px) {
   .container-fluid {
     flex-direction: column; }
-    .container-fluid .navbar-brand img {
-      height: 50px;
-      position: relative;
-      left: 8px; }
+    .container-fluid .navbar-brand {
+      display: none; }
+      .container-fluid .navbar-brand img {
+        height: 50px;
+        position: relative;
+        left: 8px; }
     .container-fluid #navbarNavDropdown .navbar-nav .nav-item {
       padding: 5px; }
       .container-fluid #navbarNavDropdown .navbar-nav .nav-item .nav-link {

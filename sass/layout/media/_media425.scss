@@ -3,6 +3,7 @@
     .container-fluid {
         flex-direction: column;
         .navbar-brand {
+            display: none;
             img {
                 height: 50px;
                 position: relative;
